@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api', // backend URL
+  baseURL: 'https://notes-app-backend-h5h7.onrender.com', // backend URL
 });
 
 export default API;
