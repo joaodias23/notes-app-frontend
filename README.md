@@ -2,6 +2,8 @@
 
 A simple, full-stack note-taking application built with **React**, **Express**, **MongoDB**, and **Node.js**. The app is deployed on **Vercel** (frontend) and **Render** (backend). Users can register, log in, and manage their notes securely using JWT authentication. For the sake of this demo, you can use a fake email and password to test it.
 
+[First request on the demo may take a while to process as the server is asleep]
+
 **Live Demo:** [https://notes-app-frontend-fimhwk2vu-joao-dias-projects-c47a3e98.vercel.app/](https://notes-app-frontend-fimhwk2vu-joao-dias-projects-c47a3e98.vercel.app/)
 
 ## Features
