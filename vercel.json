@@ -1,7 +1,10 @@
 {
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ],
   "headers": [
     {
-      "source": "/(.*)", "destination": "/",
+      "source": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Origin", "value": "https://notes-app-frontend-886mnre0v-joao-dias-projects-c47a3e98.vercel.app" },
         { "key": "Access-Control-Allow-Methods", "value": "GET, POST, PUT, PATCH, DELETE, OPTIONS" },
